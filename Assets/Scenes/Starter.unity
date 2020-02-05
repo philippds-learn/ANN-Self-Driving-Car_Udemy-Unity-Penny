@@ -1009,7 +1009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95b9e916b6d053146a881208b7f44458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visibleDistance: 200
+  visibleDistance: 50
   epochs: 1000
   speed: 50
   rotationSpeed: 100

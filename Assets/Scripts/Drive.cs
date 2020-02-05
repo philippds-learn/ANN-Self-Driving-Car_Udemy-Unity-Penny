@@ -5,9 +5,9 @@ using System.IO;
 
 public class Drive : MonoBehaviour
 {
-    public float speed = 50.0f;
+    public float speed = 200.0f;
     public float rotationSpeed = 100.0f;
-    public float visibleDistance = 200.0f;
+    public float visibleDistance = 50.0f;
 
     float translationInput;
     float rotationInput;

@@ -6,7 +6,7 @@ using System.IO;
 public class ANNDrive : MonoBehaviour
 {
     ANN ann;
-    public float visibleDistance = 200;
+    public float visibleDistance = 50;
     public int epochs = 1000;
     public float speed = 50.0f;
     public float rotationSpeed = 100.0f;
@@ -20,7 +20,7 @@ public class ANNDrive : MonoBehaviour
     public float translation;
     public float rotation;
 
-    public bool loadFromFile = false;
+    public bool loadFromFile = true;
     
     // Start is called before the first frame update
     void Start()
@@ -131,7 +131,7 @@ public class ANNDrive : MonoBehaviour
             this.ann.LoadWeights(line);            
         }
 
-        wf.Close();
+        //wf.Close();
     }
 
     float Map(float newFrom, float newTo, float origFrom, float origTo, float value)
